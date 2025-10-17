@@ -78,9 +78,13 @@ install(FILES demo/demo.launch.xml
   DESTINATION share/${PROJECT_NAME}/launch)
 install(FILES demo/demo_uji.launch.xml
   DESTINATION share/${PROJECT_NAME}/launch)
+install(FILES demo/demo_gsc.launch.xml
+  DESTINATION share/${PROJECT_NAME}/launch)
 install(FILES demo/demo.rviz
   DESTINATION share/${PROJECT_NAME}/demo)
 install(FILES demo/demo_uji.rviz
+  DESTINATION share/${PROJECT_NAME}/demo)
+install(FILES demo/demo_gsc.rviz
   DESTINATION share/${PROJECT_NAME}/demo)
 install(PROGRAMS demo/publish_demo_data
   DESTINATION lib/${PROJECT_NAME})
